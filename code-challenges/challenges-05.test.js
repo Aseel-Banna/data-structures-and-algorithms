@@ -40,8 +40,10 @@ Write a function named removeThree that takes an index and an array. The functio
 
 const removeThree = (idx, arr) => {
   // Solution code here...
-  let output = arr.slice(idx,2);
-  return output;
+  // let output = arr.slice(idx,2);
+  // return arr;
+  let output = arr.splice(idx,3); // at position 1 remove 2 items
+  return arr;
 
 };
 
