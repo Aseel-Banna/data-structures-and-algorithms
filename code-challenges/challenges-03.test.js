@@ -56,6 +56,7 @@ For example: 'Cat' would come before 'apple'
 
 const sortNames = (arr) => {
   // Solution code here...
+
   arr.sort();
   return arr;
 };
@@ -127,7 +128,6 @@ const sortByPrice = (arr) => {
     return a.price - b.price;
   });
   return arr;
-
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -315,6 +315,7 @@ xdescribe('Testing challenge 7', () => {
   });
 });
 
+describe('Testing challenge 8', () => {
 describe('Testing challenge 8', () => {
   test('It should sort items by their price', () => {
     expect(sortByPrice([
