@@ -44,7 +44,7 @@ const removeThree = (idx, arr) => {
   // return arr;
   let output = arr.splice(idx,3); // at position 1 remove 2 items
   return arr;
-
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -55,7 +55,7 @@ Write a function named joinArray that takes an array and joins all of the elemen
 
 const joinArray = (arr) => {
   // Solution code here...
-let newArray = arr.join(' ');
+  let newArray = arr.join(' ');
 return newArray;
 };
 
