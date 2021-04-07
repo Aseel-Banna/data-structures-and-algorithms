@@ -12,7 +12,7 @@ For performance: O(n)
 
 ![solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/challenge01.png)
 
-![whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard01.png)
+![whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard01.jpeg)
 
 - [X] Problem domain
 - [X] Challenge
