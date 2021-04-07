@@ -9,8 +9,8 @@ Find the index of a search key if there is in an array, but if it is not in the 
 For performance: O(n)
 
 ## Solution
-
-![solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/array-binary-search.png)
+[The Code](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/array-binary-search/ArrayBinarySearch.java)
+![solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/arry-binary-search.png)
 
 ![whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard03.jpeg)
 
