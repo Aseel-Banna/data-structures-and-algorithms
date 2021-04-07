@@ -10,9 +10,9 @@ For performance: O(n)
 
 ## Solution
 
-![solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/challenge0.png)
+![solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/array-shift.png)
 
-![whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard0.jpeg)
+![whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard02.jpeg)
 
 - [X] Problem domain
 - [X] Challenge
