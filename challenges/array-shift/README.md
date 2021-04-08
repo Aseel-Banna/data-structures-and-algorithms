@@ -6,7 +6,7 @@ This is the second challenge in code-401, which is related to arrays and their m
 Use ArrayList to create an empty array and use add method to push new elements to the middle.
 
 ## Approach & Efficiency
-For performance: O(n)
+For performance: O(log n)
 
 ## Solution
 
