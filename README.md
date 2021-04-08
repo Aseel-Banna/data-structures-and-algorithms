@@ -13,3 +13,14 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+# Challenges For Code-401
+
+## Table of Contents
+Read Number | Topic Name | Link
+----------- | ---------- | ----
+Challenge 1 | Array Reverse | [Topic 1](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/array-reverse)
+Challenge 2 | Array Shift | [Topic 2](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/array-shift) 
+Challenge 3 | Array Binary Search | [Topic 3](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/array-binary-search) 
+Challenge 4 | Linked List | [Topic 4](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/array-binary-search) 
+
