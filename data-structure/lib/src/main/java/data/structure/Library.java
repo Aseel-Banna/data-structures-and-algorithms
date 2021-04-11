@@ -3,6 +3,8 @@
  */
 package data.structure;
 
+import java.util.LinkedList;
+
 public class Library {
     public boolean someLibraryMethod() {
         return true;
@@ -17,12 +19,15 @@ public class Library {
 
         int value;
         Node next;
+        Node previous;
+        Node last;
         public Node(int v){
             value = v;
             next = null;
+            previous = null;
+            last = null;
         }
     }
-
 
     public void insert(int data) {
         Node node = new Node(data);
@@ -34,10 +39,32 @@ public class Library {
         }
     }
 
+    public void append(int val) {
+        Node value = new Node(val);
+        if (head == null) {
+            head = value;
+        } else {
+            Node current = head;
+            while (current.next != null) {
+                current = current.next;
+            }
+            current.next = value;
+        }
+    }
+
+    public void insertAfter(int value, int newValue){
+            Node node = new Node(newValue);
+            Node current = head;
+            while(current.value != value && current.next != null){
+                current = current.next;
+            }
+            node.next = current.next;
+            current.next = node;
+        }
+
     public String toString() {
         Node currNode = head;
         String result = "";
-        System.out.print("\"");
 
         while (currNode != null) {
             result+="{" + currNode.value + "} -> ";
@@ -56,5 +83,19 @@ public class Library {
             currNode = currNode.next;
         }
         return false;
+    }
+
+    public void insertBefore(int value, int newValue){
+        if (head.value == value) {
+            insert(newValue);
+        } else {
+                Node node = new Node(newValue);
+                Node current = head;
+                while (current.next != null && current.next.value != value) {
+                    current = current.next;
+                }
+                node.next = current.next;
+                current.next = node;
+            }
     }
 }

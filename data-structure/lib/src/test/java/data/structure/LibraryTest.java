@@ -14,8 +14,6 @@ public class LibraryTest {
 
     @Test public void testLibrary(){
         Library currentLibrary = new Library();
-//        LinkedList list1 = new LinkedList();
-
         currentLibrary.insert(1);
         currentLibrary.insert(2);
         currentLibrary.insert(3);
@@ -26,5 +24,48 @@ public class LibraryTest {
 
         assertTrue("true", currentLibrary.includes(1));
         assertFalse("false", currentLibrary.includes(5));
+    }
+
+    @Test public void testAppend(){
+        Library currentLibrary = new Library();
+
+        currentLibrary.insert(1);
+        currentLibrary.insert(2);
+        currentLibrary.insert(3);
+        currentLibrary.append(5);
+        currentLibrary.append(7);
+        String expected = "{3} -> {2} -> {1} -> {5} -> {7} -> Null";
+
+        assertEquals("Output", expected, currentLibrary.toString());
+    }
+
+    @Test public void testInsertAfter(){
+        Library currentLibrary = new Library();
+
+        currentLibrary.insert(1);
+        currentLibrary.insert(2);
+        currentLibrary.insert(3);
+        currentLibrary.append(5);
+        currentLibrary.append(7);
+        currentLibrary.insertAfter(1, 6);
+        String expected = "{3} -> {2} -> {1} -> {6} -> {5} -> {7} -> Null";
+        System.out.println(expected);
+        assertEquals("Output", expected, currentLibrary.toString());
+    }
+
+    @Test public void testInsertBefore(){
+        Library currentLibrary = new Library();
+
+        currentLibrary.insert(1);
+        currentLibrary.insert(2);
+        currentLibrary.insert(3);
+        currentLibrary.insertAfter(1, 6);
+        currentLibrary.insertBefore(3, 4);
+        currentLibrary.insertAfter(6,4);
+        currentLibrary.append(5);
+        currentLibrary.append(7);
+        String expected = "{4} -> {3} -> {2} -> {1} -> {6} -> {4} -> {5} -> {7} -> Null";
+        System.out.println(currentLibrary.toString());
+        assertEquals("Output", expected, currentLibrary.toString());
     }
 }
