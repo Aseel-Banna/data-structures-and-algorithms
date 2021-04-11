@@ -18,7 +18,7 @@ includes: search for a certain value if it exists in a linked list
 toString: print out all elements in the linked list
 
 ![Solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/linked-list.png)
-![Whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard05.jpeg)
+![Whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/linkedlist.png)
 
 - [X] Problem domain
 - [X] Challenge
