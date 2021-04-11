@@ -53,7 +53,7 @@ insertAfter(value, newVal) which add a new node with the given newValue immediat
 ![Solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/challenge06.png)
 
 ![whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/linkedlist.png)
-https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/linkedlist.png
+
 - [X] Top-level README “Table of Contents” is updated
 - [X] Feature tasks for this challenge are completed
 - [X] Unit tests written and passing
