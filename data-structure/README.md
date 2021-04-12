@@ -64,3 +64,36 @@ insertAfter(value, newVal) which add a new node with the given newValue immediat
   - [X] Summary, Description, Approach & Efficiency, Solution
   - [X] Link to code
   - [X] Picture of whiteboard
+
+
+# Challenge 7
+
+Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list.
+
+## Approach & Efficiency
+O(1)
+
+## API
+
+insert: adding values to the linked list
+includes: search for a certain value if it exists in a linked list
+toString: print out all elements in the linked list
+append(value)*** which adds a new node with the given value to the end of the list
+insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+returnValue (position) which return the data of the inserted position
+
+![Solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/challenge07.png)
+
+![whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard07.png)
+
+- [X] Top-level README “Table of Contents” is updated
+- [X] Feature tasks for this challenge are completed
+- [X] Unit tests written and passing
+  - [X] “Happy Path” - Expected outcome
+  - [X] Expected failure
+  - [X] Edge Case (if applicable/obvious)
+- [X] README for this challenge is complete
+  - [X] Summary, Description, Approach & Efficiency, Solution
+  - [X] Link to code
+  - [X] Picture of whiteboard

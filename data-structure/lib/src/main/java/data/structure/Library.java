@@ -21,11 +21,13 @@ public class Library {
         Node next;
         Node previous;
         Node last;
+        int data;
         public Node(int v){
             value = v;
             next = null;
             previous = null;
             last = null;
+            data = v;
         }
     }
 
@@ -98,4 +100,21 @@ public class Library {
                 current.next = node;
             }
     }
+
+    public int returnValue(int index)
+    {
+        Node current = head;
+        int count = 0;
+        while (current != null)
+        {
+            if (count == index)
+                return current.data;
+            count++;
+            current = current.next;
+        }
+        assert (false);
+        return 0;
+    }
+
 }
+
