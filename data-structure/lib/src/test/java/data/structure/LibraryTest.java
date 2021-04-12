@@ -68,4 +68,17 @@ public class LibraryTest {
         System.out.println(currentLibrary.toString());
         assertEquals("Output", expected, currentLibrary.toString());
     }
+
+    @Test public void testReturnValue(){
+        Library currentLibrary = new Library();
+        currentLibrary.insert(1);
+        currentLibrary.insert(4);
+        currentLibrary.insert(1);
+        currentLibrary.insert(12);
+        currentLibrary.insert(1);
+
+        System.out.println("Element at index 3 is "+ currentLibrary.returnValue(3));
+        assertEquals(4,currentLibrary.returnValue(3) );
+
+    }
 }
