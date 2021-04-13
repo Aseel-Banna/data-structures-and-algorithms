@@ -116,5 +116,23 @@ public class Library {
         return 0;
     }
 
+    public void zipLists(Library q) {
+        Node p_curr = head, q_curr = q.head;
+        Node p_next, q_next;
+
+        while (p_curr != null && q_curr != null) {
+
+            p_next = p_curr.next;
+            q_next = q_curr.next;
+
+            q_curr.next = p_next;
+            p_curr.next = q_curr;
+
+            p_curr = p_next;
+            q_curr = q_next;
+        }
+        q.head = q_curr;
+    }
+
 }
 
