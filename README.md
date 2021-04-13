@@ -24,4 +24,7 @@ Challenge 2 | Array Shift | [Topic 2](https://github.com/Aseel-Banna/data-struct
 Challenge 3 | Array Binary Search | [Topic 3](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/array-binary-search) 
 Challenge 4 | Linked List | [Topic 4](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/Data-Structures) 
 Challenge 5 | Linked List Insertion | [Topic 5](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/Data-Structures) 
+Challenge 6 | Linked List Insertion | [Topic 6](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structures) 
+Challenge 7 | Linked List Insertion | [Topic 7](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structures) 
+Challenge 8 | Linked List Insertion | [Topic 8](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structures) 
 
