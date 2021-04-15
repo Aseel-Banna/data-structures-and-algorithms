@@ -27,4 +27,5 @@ Challenge 5 | Linked List Insertion | [Topic 5](https://github.com/Aseel-Banna/d
 Challenge 6 | Linked List Insertion | [Topic 6](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structures) 
 Challenge 7 | Linked List Insertion | [Topic 7](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structures) 
 Challenge 8 | Linked List Insertion | [Topic 8](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structures) 
+Challenge 10 | Stack and Queue| [Topic 10](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structures/stack-and-queue) 
 
