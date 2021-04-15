@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="array-binary-search.lib" target="1.8" />
+      <module name="array-binary-search.lib.main" target="1.8" />
+      <module name="array-binary-search.lib.test" target="1.8" />
+      <module name="Data-Structures.app" target="1.8" />
+      <module name="Data-Structures.app.main" target="1.8" />
+      <module name="Data-Structures.app.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
