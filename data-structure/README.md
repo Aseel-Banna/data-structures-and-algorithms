@@ -104,7 +104,7 @@ returnValue (position) which return the data of the inserted position
 Write a function called zipLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1).
 
 ## Approach & Efficiency
-O(1)
+O(1) since will always take same amount of time to be executed.
 
 ## API
 
