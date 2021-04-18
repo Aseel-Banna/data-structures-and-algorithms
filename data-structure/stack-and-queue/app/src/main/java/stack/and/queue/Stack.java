@@ -1,6 +1,14 @@
 package stack.and.queue;
 
 public class Stack<T> {
+    public Node getTop() {
+        return top;
+    }
+
+    public void setTop(Node top) {
+        this.top = top;
+    }
+
     Node top;
 
     public Stack(T value) {
@@ -31,7 +39,7 @@ public class Stack<T> {
         }catch (NullPointerException ex){
             System.out.println(ex);
         }
-        return lastNode;
+        return lastNode.value;
     }
 
     public Object peek() {
