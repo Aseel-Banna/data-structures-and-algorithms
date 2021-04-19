@@ -71,7 +71,7 @@ insertAfter(value, newVal) which add a new node with the given newValue immediat
 Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list.
 
 ## Approach & Efficiency
-O(1)
+O(n), because it will take on the order of n operations to insert an item.
 
 ## API
 
