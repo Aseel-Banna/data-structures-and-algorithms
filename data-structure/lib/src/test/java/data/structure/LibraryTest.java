@@ -1,8 +1,11 @@
 package data.structure;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import data.structure.Library;
+
+import java.io.IOException;
 
 import static org.junit.Assert.*;
 
@@ -64,7 +67,7 @@ public class LibraryTest {
         assertEquals("Output", expected, currentLibrary.toString());
     }
 
-    @Test public void testReturnValue(){
+    @Test public void testReturnValue() throws IOException {
         Library currentLibrary = new Library();
         currentLibrary.insert(1);
         currentLibrary.insert(4);
@@ -74,6 +77,38 @@ public class LibraryTest {
 
         System.out.println("Test 5 : \nElement at index 3 is "+ currentLibrary.returnValue(3));
         assertEquals(4,currentLibrary.returnValue(3) );
+
+    }
+    
+    @Test public void testReturnValue2() throws IOException {
+        Library currentLibrary = new Library();
+        currentLibrary.insert(1);
+        currentLibrary.insert(4);
+        currentLibrary.insert(1);
+        currentLibrary.insert(12);
+        currentLibrary.insert(1);
+
+        System.out.println("Element at index 5 is "+ currentLibrary.returnValue(5));
+        assertEquals(-1,currentLibrary.returnValue(5) );
+
+    }
+
+    @Test public void testReturnValue3() throws IOException {
+        Library currentLibrary = new Library();
+        try
+        {
+            currentLibrary.insert(1);
+            currentLibrary.insert(4);
+            currentLibrary.insert(1);
+            currentLibrary.insert(12);
+            currentLibrary.insert(1);
+            currentLibrary.returnValue(15);
+        }
+        catch (Exception ex)
+        {
+            System.out.println(ex);
+        }
+        assertEquals(-1, currentLibrary.returnValue(-5));
 
     }
 

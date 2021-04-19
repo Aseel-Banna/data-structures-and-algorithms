@@ -1,8 +1,9 @@
 package data.structure;
 
+import java.io.IOException;
 import java.util.LinkedList;
 
-public class Library {
+public class Library <T>{
     public boolean someLibraryMethod() {
         return true;
     }
@@ -98,8 +99,9 @@ public class Library {
         }
     }
 
-    public int returnValue(int index)
-    {
+    public int returnValue(int index) throws IOException {
+        LinkedList<Node> linkedList = new LinkedList<>();
+
         Node current = head;
         int count = 0;
         while (current != null)
@@ -109,6 +111,9 @@ public class Library {
             count++;
             current = current.next;
         }
+        if(index< 0 || index > linkedList.size()) return -1;
+
+
         assert (false);
         return 0;
     }
