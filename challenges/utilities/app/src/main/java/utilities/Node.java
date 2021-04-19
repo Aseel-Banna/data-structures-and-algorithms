@@ -1,4 +1,4 @@
-package stack.and.queue;
+package utilities;
 
 public class Node <T>{
     T value;

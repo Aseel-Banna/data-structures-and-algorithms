@@ -29,5 +29,6 @@ Challenge 7 | Linked List Insertion | [Topic 7](https://github.com/Aseel-Banna/d
 Challenge 8 | Linked List Insertion | [Topic 8](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structure) 
 Challenge 10 | Stack and Queue| [Topic 10](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structure/stack-and-queue) 
 Challenge 11 | Queue with Stack | [Topic 11](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structure/stack-and-queue) 
+Challenge 12 | Animal Shelter | [Topic 12](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/utilities) 
 
 
