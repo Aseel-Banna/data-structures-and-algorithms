@@ -79,7 +79,7 @@ public class LibraryTest {
         assertEquals(4,currentLibrary.returnValue(3) );
 
     }
-    
+
     @Test public void testReturnValue2() throws IOException {
         Library currentLibrary = new Library();
         currentLibrary.insert(1);
