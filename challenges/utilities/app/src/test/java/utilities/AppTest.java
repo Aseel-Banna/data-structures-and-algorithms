@@ -11,7 +11,7 @@ public class AppTest {
         App classUnderTest = new App();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
-    @Test public void test(){
+    @Test public void testDog(){
         Animal newDog = new Animal();
         AnimalShelter animalShelter = new AnimalShelter();
         newDog.type = "dog";
@@ -21,7 +21,7 @@ public class AppTest {
         assertEquals(newDog.type,  animalShelter.dequeue("dog"));
     }
 
-    @Test public void test2(){
+    @Test public void testCat(){
         Animal newDog = new Animal();
         AnimalShelter animalShelter = new AnimalShelter();
         newDog.type = "cat";
@@ -31,21 +31,37 @@ public class AppTest {
         assertEquals(newDog.type, animalShelter.dequeue("cat"));
     }
 
-    @Test public void test3(){
+    @Test public void testMouse(){
         Animal newDog = new Animal();
         AnimalShelter animalShelter = new AnimalShelter();
         newDog.type = "mouse";
         animalShelter.enqueue(newDog);
         animalShelter.enqueue(newDog);
 
-        assertEquals(null, animalShelter.dequeue("mouse"));
+        assertEquals("It should be cat or dog!", animalShelter.dequeue("mouse"));
     }
 
-    @Test public void test4(){
+    @Test public void testNull(){
         Animal newDog = new Animal();
         AnimalShelter animalShelter = new AnimalShelter();
         newDog.type = "cat";
         System.out.println(animalShelter.dequeue("cat"));
         assertEquals(null, animalShelter.dequeue("cat"));
+    }
+
+    @Test public void testEnqueue(){
+        Animal newDog = new Animal();
+        AnimalShelter animalShelter = new AnimalShelter();
+        newDog.type = "rabbit";
+        assertEquals("rabbit", animalShelter.enqueue("rabbit"));
+        assertEquals("It should be cat or dog!" , animalShelter.dequeue("rabbit"));
+    }
+
+    @Test public void testEnqueueRabbit(){
+        Animal newDog = new Animal();
+        AnimalShelter animalShelter = new AnimalShelter();
+        newDog.type = "rabbit";
+        assertEquals("rabbit", animalShelter.enqueue("rabbit"));
+        assertEquals("It should be cat or dog!" , animalShelter.dequeue("rabbit"));
     }
 }
