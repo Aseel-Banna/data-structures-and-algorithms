@@ -64,4 +64,12 @@ public class AppTest {
         assertEquals("rabbit", animalShelter.enqueue("rabbit"));
         assertEquals("It should be cat or dog!" , animalShelter.dequeue("rabbit"));
     }
+
+    @Test public void testEnqueueMain(){
+        Animal newDog = new Animal();
+        AnimalShelter animalShelter = new AnimalShelter();
+        newDog.type = "rabbit";
+        assertEquals("Camel", animalShelter.enqueue("Camel"));
+
+    }
 }
