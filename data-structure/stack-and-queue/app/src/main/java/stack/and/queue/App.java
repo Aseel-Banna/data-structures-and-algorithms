@@ -4,6 +4,8 @@
 package stack.and.queue;
 
 
+import java.util.List;
+
 public class App {
     public static void main(String[] args) {
 //        Stack stack = new Stack();
@@ -27,16 +29,17 @@ public class App {
 //        System.out.println(queue);
 //        System.out.println(queue.isEmpty());
 //        System.out.println(queue.peek());
-        PseudoQueue pseudoQueue = new PseudoQueue();
-        pseudoQueue.enqueue(1);
-        pseudoQueue.enqueue(2);
-        System.out.println("hello");
-        System.out.println(pseudoQueue);
-        System.out.println(pseudoQueue.dequeue());
-        System.out.println(pseudoQueue);
-        System.out.println(pseudoQueue.dequeue());
-        System.out.println(pseudoQueue);
-        System.out.println(pseudoQueue.dequeue());
-        System.out.println(pseudoQueue);
+//        PseudoQueue pseudoQueue = new PseudoQueue();
+//        pseudoQueue.enqueue(1);
+//        pseudoQueue.enqueue(2);
+//        System.out.println("hello");
+//        System.out.println(pseudoQueue);
+//        System.out.println(pseudoQueue.dequeue());
+//        System.out.println(pseudoQueue);
+//        System.out.println(pseudoQueue.dequeue());
+//        System.out.println(pseudoQueue);
+//        System.out.println(pseudoQueue.dequeue());
+//        System.out.println(pseudoQueue);
     }
+
 }

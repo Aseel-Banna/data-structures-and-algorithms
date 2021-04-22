@@ -57,7 +57,8 @@ O(n): since it will loop along with the stack length
 
 
 ![Stack Solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/challenge11.png)
-![Queue Solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard11.jpeg)
+![Queue Solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/challenge11a.jpeg)
+![Queue Solution](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/challenge11b.jpeg)
 
 
 - [X] Top-level README “Table of Contents” is updated
