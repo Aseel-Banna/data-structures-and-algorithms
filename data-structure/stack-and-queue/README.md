@@ -4,7 +4,7 @@
 Create a stack and a queue and create methods to deal with them
 
 ## Approach & Efficiency
-O(1)
+O(1) since they are dealing with one value.
 
 ## API
 ### Stack
