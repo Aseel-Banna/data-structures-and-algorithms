@@ -68,4 +68,19 @@ public class BinaryTree<T> {
         return values;
 
     }
+
+    public int findMaximumValue(){
+        if (this.overallRoot == null){
+            return 0;
+        }
+        values = new ArrayList<>();
+        values = this.postOrder();
+        int max = (Integer) this.overallRoot.value;
+        for (Integer i = 0; i < values.size(); i++){
+            if (max <(Integer) values.get(i)) {
+                max = (Integer) values.get(i);
+            }
+        }
+        return max;
+    }
 }
