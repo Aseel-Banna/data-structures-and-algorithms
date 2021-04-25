@@ -31,6 +31,6 @@ Challenge 10 | Stack and Queue| [Topic 10](https://github.com/Aseel-Banna/data-s
 Challenge 11 | Queue with Stack | [Topic 11](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/data-structure/stack-and-queue) 
 Challenge 12 | Animal Shelter | [Topic 12](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/utilities) 
 Challenge 13 | Multi Brackets Checker | [Topic 13](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/utilities) 
-Challenge 15 | Binary Tree and BST Implementation | [Topic 13](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
-
+Challenge 15 | Binary Tree and BST Implementation | [Topic 15](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
+Challenge 16 | Maximum Value of Node | [Topic 16](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
 

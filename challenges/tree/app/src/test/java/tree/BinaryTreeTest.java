@@ -53,6 +53,7 @@ public class BinaryTreeTest {
         expected.add(9);
 
         testInt = new BinaryTree<>(root);
+        System.out.println(testInt.preOrder());
         assertEquals("Value should do pre-order", expected, testInt.preOrder());
     }
 
@@ -113,4 +114,52 @@ public class BinaryTreeTest {
         assertNull("Tree is Empty!", testInt.postOrder());
 
     }
+
+    @Test
+    public void findMaximumValueTest(){
+
+        BinarySearchTree test = new BinarySearchTree();
+        test.add(2);
+        test.add(11);
+        test.add(5);
+        test.add(10);
+        System.out.println(test.toString());
+        System.out.println(test.findMaximumValue());
+        assertEquals(11, test.findMaximumValue());
+    }
+
+    @Test
+    public void findMaximumValueOfNullRootTest(){
+
+        BinarySearchTree test = new BinarySearchTree();
+
+        System.out.println(test.toString());
+        System.out.println(test.findMaximumValue());
+        assertEquals(0, test.findMaximumValue());
+    }
+
+    @Test
+    public void findMaximumValueTest2(){
+
+        BinarySearchTree test = new BinarySearchTree();
+        test.add(2);
+        test.add(5);
+        test.add(10);
+        System.out.println(test.toString());
+        System.out.println(test.findMaximumValue());
+        assertEquals(10, test.findMaximumValue());
+    }
+
+    @Test
+    public void findMaximumValueTest3(){
+
+        BinarySearchTree test = new BinarySearchTree();
+        test.add(-1);
+        test.add(-10);
+        test.add(-2);
+        System.out.println(test.toString());
+        System.out.println(test.findMaximumValue());
+        assertEquals(-1, test.findMaximumValue());
+    }
+
 }

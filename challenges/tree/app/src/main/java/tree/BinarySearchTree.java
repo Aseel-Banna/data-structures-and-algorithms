@@ -43,4 +43,11 @@ public class BinarySearchTree<T extends Comparable<? super T>> extends BinaryTre
         }
     }
 
+    @Override
+    public String toString() {
+        return "BinarySearchTree{" +
+                "overallRoot=" + overallRoot +
+                ", values=" + values +
+                '}';
+    }
 }
