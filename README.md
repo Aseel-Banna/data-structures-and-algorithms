@@ -33,4 +33,5 @@ Challenge 12 | Animal Shelter | [Topic 12](https://github.com/Aseel-Banna/data-s
 Challenge 13 | Multi Brackets Checker | [Topic 13](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/utilities) 
 Challenge 15 | Binary Tree and BST Implementation | [Topic 15](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
 Challenge 16 | Maximum Value of Node | [Topic 16](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
+Challenge 17 | Breadth-First Tree | [Topic 17](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
 
