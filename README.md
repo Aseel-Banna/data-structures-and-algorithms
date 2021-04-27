@@ -34,4 +34,5 @@ Challenge 13 | Multi Brackets Checker | [Topic 13](https://github.com/Aseel-Bann
 Challenge 15 | Binary Tree and BST Implementation | [Topic 15](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
 Challenge 16 | Maximum Value of Node | [Topic 16](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
 Challenge 17 | Breadth-First Tree | [Topic 17](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/tree) 
+Challenge 18 | FizzBuzz Tree | [Topic 18](https://github.com/Aseel-Banna/data-structures-and-algorithms/tree/main/challenges/utilities) 
 

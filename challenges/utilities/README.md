@@ -71,3 +71,39 @@ To use: `MultiBracketValidation.multiBracketValidation(String input)`
   - [X] Link to code
   - [X] Picture of whiteboard
 
+
+
+# FizzBuzz Tree
+Convert an integer tree to a FizzBuzz Tree
+
+## Challenge
+Write a function called FizzBuzzTree which takes a k-ary tree as an argument:
+- If the value is divisible by 3, replace the value with “Fizz”
+- If the value is divisible by 5, replace the value with “Buzz”
+- If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+- If the value is not divisible by 3 or 5, simply turn the number into a String.
+
+## Approach and Efficiency
+Used the recursion with pre-order traversal to check and convert each node. Each node string data was converted to Integer and then evaluated using mod operation to check divisibility.
+Time and space complexities: 0(n) with the recursion, since it will loop over the tree element by element. 
+
+## API
+fizzBuzzTree - accepts Tree with integer datatype.
+To use: `FizzBuzzTree fizzBuzzTree  fizzBuzzTree.fizzBuzz(tree)`
+
+
+## Whiteboard
+* ![Whiteboard](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/challenges/assets/whiteboard18.png)
+
+
+- [X] Top-level README “Table of Contents” is updated
+- [X] Feature tasks for this challenge are completed
+- [X] Unit tests written and passing
+  - [X] “Happy Path” - Expected outcome
+  - [X] Expected failure
+  - [X] Edge Case (if applicable/obvious)
+- [X] README for this challenge is complete
+  - [X] Summary, Description, Approach & Efficiency, Solution
+  - [X] Link to code
+  - [X] Picture of whiteboard
+
