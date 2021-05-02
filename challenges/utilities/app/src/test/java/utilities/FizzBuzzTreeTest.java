@@ -5,19 +5,16 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 public class FizzBuzzTreeTest<T> {
     private FizzBuzzTree<Integer> testInt= new FizzBuzzTree<>();
     @Test
     public void breadthFirstEmptyTree() {
-        NodeTree left = new NodeTree(null);
-        NodeTree right = new NodeTree(null);
-        NodeTree rootNode = new NodeTree(null,null,null);
+        FizzBuzzTree<String> emptyTree = new FizzBuzzTree<>();
+        emptyTree.fizzBuzz(null);
+        assertNull("Should be null tree", emptyTree.preOrder());
 
-        ArrayList<Integer> expected = new ArrayList<>();
-        testInt = new FizzBuzzTree<>(rootNode);
-        System.out.println(testInt.fizzBuzz(expected));
-        assertEquals("Value should do in-order", expected, testInt.fizzBuzz(expected));
     }
 
     @Test
