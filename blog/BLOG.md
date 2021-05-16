@@ -43,7 +43,7 @@ The 5th pass through of the array proves that 9 is the next smallest number in t
 
 Pass 6:
 The 6th and last pass through of the array proves that 27 is the largest number in the array, and as a result, it is already sorted.
-* min = 5 , j = 6, temp = 27
+* min = 5 , j = 6, temp = 9
 
 ## Efficiency
 Time: O(n^2)
