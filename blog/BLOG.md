@@ -10,7 +10,6 @@ Selection sort is an algorithm that used to sort an array ascending.
         FOR j = i + 1 to n
             if (arr[j] < arr[min])
                 min <-- j;
-
         DECLARE temp <-- arr[min];
         arr[min] <-- arr[i];
         arr[i] <-- temp;`
