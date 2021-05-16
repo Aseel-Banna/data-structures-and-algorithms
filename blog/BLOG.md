@@ -3,7 +3,7 @@
 Selection sort is an algorithm that used to sort an array ascending.
 
 ## Pseudo Code
-```SelectionSort(int[] arr)
+`SelectionSort(int[] arr)
     DECLARE n <-- arr.Length;
     FOR i = 0; i to n - 1  
         DECLARE min <-- i;
@@ -13,7 +13,7 @@ Selection sort is an algorithm that used to sort an array ascending.
 
         DECLARE temp <-- arr[min];
         arr[min] <-- arr[i];
-        arr[i] <-- temp;```
+        arr[i] <-- temp;`
         
 ## Trace 
 Sample Array: [9,5,27,7,5,6] <br/>
