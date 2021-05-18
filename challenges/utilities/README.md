@@ -107,3 +107,8 @@ To use: `FizzBuzzTree fizzBuzzTree  fizzBuzzTree.fizzBuzz(tree)`
   - [X] Link to code
   - [X] Picture of whiteboard
 
+
+## BLOGS
+[Blog1](blog)<br/>
+[Blog2](blog/blog2)<br/>
+[Blog3](blog/blog3)<br/>
