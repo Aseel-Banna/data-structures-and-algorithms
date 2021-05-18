@@ -128,15 +128,6 @@ public class BinaryTreeTest {
         assertEquals(11, test.findMaximumValue());
     }
 
-    @Test
-    public void findMaximumValueOfNullRootTest(){
-
-        BinarySearchTree test = new BinarySearchTree();
-
-        System.out.println(test.toString());
-        System.out.println(test.findMaximumValue());
-        assertEquals(0, test.findMaximumValue());
-    }
 
     @Test
     public void findMaximumValueTest2(){
