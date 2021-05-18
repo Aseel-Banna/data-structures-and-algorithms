@@ -6,17 +6,17 @@ QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and pa
 
 ALGORITHM QuickSort(arr, left, right)
     `if left < right
-        // Partition the array by setting the position of the pivot value 
+        // Partition the array by setting the position of the pivot value. 
         DEFINE position <-- Partition(arr, left, right)
-        // Sort the left
+        // Sort the left.
         QuickSort(arr, left, position - 1)
-        // Sort the right
+        // Sort the right.
         QuickSort(arr, position + 1, right)`
 
 ALGORITHM Partition(arr, left, right)
   `  // set a pivot value as a point of reference
     DEFINE pivot <-- arr[right]
-    // create a variable to track the largest index of numbers lower than the defined pivot
+    // create a variable to track the largest index of numbers lower than the defined pivot.
     DEFINE low <-- left - 1
     for i <- left to right do
         if arr[i] <= pivot
