@@ -19,7 +19,7 @@ The approach is to use arrays to store the keys and values.
 4. get - average time and space are O(1). Worst time is O(n).
 
 ## Source Codes
-[Source Code](data-structure/hashtable/app/src/main/java/hashtable/Hashtable.java)
-[Source Test](data-structure/hashtable/app/src/test/java/hashtable/AppTest.java)
+[Source Code](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/data-structure/hashtable/app/src/main/java/hashtable/Hashtable.java)
+[Source Test](https://github.com/Aseel-Banna/data-structures-and-algorithms/blob/main/data-structure/hashtable/app/src/test/java/hashtable/AppTest.java)
 
 
