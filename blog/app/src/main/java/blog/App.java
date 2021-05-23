@@ -11,26 +11,28 @@ public class App {
 
     }
 
-    public static String sorting(int[] arr){
-        ArrayList<Integer>  pushOne = new ArrayList<>();
+    public static int[] sorting(int[] arr){
 
-        for (int i = 0; i < arr.length; i++)
-        {
-            for (int j = i + 1; j < arr.length; j++)
-            {
-                int tmp = 0;
-                if (arr[i] > arr[j])
-                {
-                    tmp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = tmp;
-                }
-            }
-            pushOne.add(arr[i]);
+        if(arr == null){
+            throw new IllegalArgumentException("Null array cannot be sorted!");
         }
 
-//        System.out.println(pushOne);
-        return pushOne.toString();
+        if(arr == null){
+            throw new IllegalArgumentException("Null array cannot be sorted!");
+        }
+
+        for(int i = 1; i < arr.length; i++){
+            int j = i - 1;
+            int temp = arr[i];
+            while(j >= 0 && temp < arr[j]){
+                arr[j + 1] = arr[j];
+                j -= 1;
+            }
+
+            arr[j + 1] = temp;
+        }
+
+        return arr;
     }
 }
 
