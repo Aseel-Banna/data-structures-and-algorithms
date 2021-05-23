@@ -73,3 +73,6 @@ As merge sort is a recursive algorithm, the time complexity can be expressed as 
 
 When solved, the time complexity will come to O(nLogn).
 
+WHY: The input is repeatedly halved, every time you insert an array as an input it will divide it for two parts from half so the complexity is O(Log(n)). And n items are iterated log n times.
+So, the complexity will be O(n*Log(n)).
+
