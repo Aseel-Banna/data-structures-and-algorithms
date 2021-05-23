@@ -6,28 +6,61 @@ package blog;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
 public class AppTest {
 
-    @Test public void testSorting() {
-        int[] arr = new int[] {8,4,23,42,16,15};
-        assertEquals("[4, 8, 15, 16, 23, 42]", App.sorting(arr));
+    @Test (expected = IllegalArgumentException.class)
+    public void sorting() {
+        App.sorting(null);
     }
 
-    @Test public void testSorting2() {
-        int[] arr2 = new int[] {20,18,12,8,5,-2};
-        assertEquals("[-2, 5, 8, 12, 18, 20]", App.sorting(arr2));
+    @Test
+    public void sortingOneValue(){
+        int[] test = new int[]{2};
+        assertTrue("One value should be the same.", Arrays.equals(new int[]{2}, App.sorting(test)));
     }
 
-    @Test public void testSorting3() {
-        int[] arr3 = new int[] {5,12,7,5,5,7};
-        assertEquals("[5, 5, 5, 7, 7, 12]", App.sorting(arr3));
+    @Test
+    public void sortingSorted(){
+        int[] test = new int[]{2,5,6,8,20};
+        assertTrue("Values should be the same.", Arrays.equals(test, App.sorting(test)));
     }
 
-    @Test public void testSorting4() {
-        int[] arr4 = new int[] {2,3,5,7,13,11};
-        assertEquals("[2, 3, 5, 7, 11, 13]", App.sorting(arr4));
+    @Test
+    public void sortingReverseSorted(){
+        int[] test = new int[]{20,8,6,5,2};
+        int[] expected = new int[]{2,5,6,8,20};
+        assertTrue("Values should be the same.", Arrays.equals(expected, App.sorting(test)));
+    }
+
+    @Test
+    public void sortingUnsorted(){
+        int[] test = new int[]{8,4,23,42,16,15};
+        int[] expected = new int[]{4,8,15,16,23,42};
+        assertTrue("Values should be the same.", Arrays.equals(expected, App.sorting(test)));
+    }
+
+    @Test
+    public void sortingUnsorted2(){
+        int[] test = new int[]{20,18,12,8,5,-2};
+        int[] expected = new int[]{-2,5,8,12,18,20};
+        assertTrue("Values should be the same.", Arrays.equals(expected, App.sorting(test)));
+    }
+
+    @Test
+    public void sortingUnsorted3(){
+        int[] test = new int[]{5,12,7,5,5,7};
+        int[] expected = new int[]{5,5,5,7,7,12};
+        assertTrue("Values should be the same.", Arrays.equals(expected, App.sorting(test)));
+    }
+
+    @Test
+    public void sortingUnsorted4(){
+        int[] test = new int[]{2,3,5,7,13,11};
+        int[] expected = new int[]{2,3,5,7,11,13};
+        assertTrue("Values should be the same.", Arrays.equals(expected, App.sorting(test)));
     }
 }
