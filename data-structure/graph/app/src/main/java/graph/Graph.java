@@ -4,18 +4,18 @@ import java.util.*;
 
 public class Graph<T> {
 
-   HashSet<Node<T>> vertexes;
+    HashSet<Node<T>> vertexes;
 
     public Graph() {
         this.vertexes = new HashSet<>();
     }
 
-    public T AddNode(T data){
+    public Node AddNode(T data){
         Node<T> node = new Node<>(data);
         if (node != null){
-           vertexes.add(node);
+            vertexes.add(node);
         }
-        return node.value;
+        return node;
     }
 
     public boolean AddEdge(Node<T> node1, Node<T> node2, int weight){
@@ -36,7 +36,7 @@ public class Graph<T> {
         return vertexes;
     }
 
-    public HashSet<Node<T>> GetNeighbors(Node<T> node){
+    public HashSet<Edge> GetNeighbors(Node<T> node){
         return node.neighbors;
     }
 

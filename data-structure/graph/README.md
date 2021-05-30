@@ -7,6 +7,7 @@ Implement a graph with these method:
 * GetNodes()
 * GetNeighbors()
 * Size()
+* breadthFirstSearch()
 
 ## Approach & Efficiency
 * AddNode(): it is O(1) for both time and space complexity, since we are adding one node to the adjacent list for graph.
@@ -14,6 +15,7 @@ Implement a graph with these method:
 * GetNodes(): it is O(1) for both time and space complexity, since we are returning a set of nodes.
 * GetNeighbors(): it is O(n) for both time complexity and space complexity, since we will take a node as input and iterate through the set of vertexes to see the neighbors.
 * Size(): it is O(n) for time complexity and O(1) for space complexity, since we will iterate through all nodes to get the size and return only one value.
+* breadthFirstSearch: it is O(n) for both time and space complexities, since we will iterate through all neighbors of a visited node.
 
 ## API
 * AddNode()
@@ -38,4 +40,13 @@ Implement a graph with these method:
 * Size()
   * Returns the total number of nodes in the graph
 
+* breadthFirstSearch()
+  * Return all nodes starting from the given one and get all neighbors.
+
 ![whiteboard](ww.png)
+
+
+## Breadth-First-Search
+
+![whiteboard](ww2.png)
+
