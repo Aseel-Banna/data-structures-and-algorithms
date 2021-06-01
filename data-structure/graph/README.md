@@ -43,6 +43,9 @@ Implement a graph with these method:
 * breadthFirstSearch()
   * Return all nodes starting from the given one and get all neighbors.
 
+* depthFirstSearch()
+  * Return all nodes starting from the given one and get all neighbors using stack to give the order of the depth first search
+
 ![whiteboard](ww.png)
 
 
@@ -50,3 +53,5 @@ Implement a graph with these method:
 
 ![whiteboard](ww2.png)
 
+## Depth-First-Search
+![whiteboard](ww3.png)

@@ -1,5 +1,6 @@
 package graph;
 
+import java.security.InvalidParameterException;
 import java.util.*;
 
 public class Graph<T> {
@@ -32,6 +33,19 @@ public class Graph<T> {
         return false;
     }
 
+    public void addEdge(Node<T> n1, Node<T> n2, int weight) throws NoSuchElementException {
+        if (this.vertexes.contains(n1) && this.vertexes.contains(n2)) {
+            if(n1 == n2) {
+                throw new InvalidParameterException("An edge must be added between two unique Nodes");
+            } else {
+                n1.neighbors.add(new Edge(n2, weight));
+                n2.neighbors.add(new Edge(n1, weight));
+            }
+        } else {
+            throw new NoSuchElementException("Could not find one of the provided Nodes in the graph");
+        }
+    }
+
     public Set<Node<T>> GetNodes(){
         return vertexes;
     }
@@ -50,4 +64,14 @@ public class Graph<T> {
         }
         return "Graph is not empty!";
     }
+
+    public Node<T> getNode(T data){
+        for(Node<T> node: vertexes){
+            if(node.value.equals(data)){
+                return node;
+            }
+        }
+        return null;
+    }
+
 }
